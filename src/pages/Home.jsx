@@ -5,7 +5,7 @@ function Home() {
   return (
     <div>
       <h1>Welcome to the Home Page!</h1>
-
+      <h1> 잘 되는지 테스트</h1>
       <nav>
         {urlList.map((item) =>
           item.name === "Home" ? null : (
